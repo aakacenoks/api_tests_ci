@@ -47,6 +47,17 @@ pipeline {
 			}
 		}
 	}
+	post {
+		always {
+			echo "I'll be here forever"
+		}
+		success {
+			echo "Its hard to be that successful as me"
+		}
+		failure {
+			echo "Mission failed. We'll get em next time"
+		}
+	}
 }
 
 def deploy(String environment) {
