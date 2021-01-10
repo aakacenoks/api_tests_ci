@@ -49,13 +49,13 @@ pipeline {
 	}
 	post {
 		always {
-			echo "I'll be here forever"
+			echo "I wll be here forever."
 		}
 		success {
-			echo "Its hard to be that successful as me"
+			echo "It's hard to be successful like me."
 		}
 		failure {
-			echo "Mission failed. We'll get em next time"
+			echo "Mission failed. We'll get em next time."
 		}
 	}
 }
